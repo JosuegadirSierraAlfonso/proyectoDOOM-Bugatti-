@@ -114,11 +114,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-
 .img-bugatti{
   background-size: cover;
   background-position: center;
 }
+
 .responsiveImg{
   width: 250px;
   height: 250px;

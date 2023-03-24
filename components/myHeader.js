@@ -6,15 +6,15 @@ export default{
             href:"#"
         },
         {
+            name:"Modelos",
+            href:"#"
+        },
+        {
             name:"Competición",
             href:"#"
         },
         {
             name:"Prototipos",
-            href:"#"
-        },
-        {
-            name:"Modelos",
             href:"#"
         },
         {
@@ -30,7 +30,7 @@ export default{
 
     listarTitle(){
         document.querySelector("#title").insertAdjacentHTML("beforeend", 
-        `<a class="blog-header-logo text-dark" href="#">${this.title}</a>`)
+        `<a class="blog-header-logo text-white" href="#">${this.title}</a>`)
     },
     
     listarCompany(){
