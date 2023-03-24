@@ -52,7 +52,7 @@ export default{
                     href: "#"
                 },
                 {
-                    name: "chiron",
+                    name: "eron",
                     href: "#"
                 }
             ],
