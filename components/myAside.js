@@ -76,8 +76,8 @@ export default{
         <div class="p-4 mb-3 bg-secondary rounded">
             <h4 class="fst-italic">${p1.title}</h4>
             <p class="mb-0">${p1.paragraph}</p>
-          </div>
-          `;
+        </div>
+        `;
     },
     list(p1){
         return`
