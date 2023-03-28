@@ -114,6 +114,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+
+body{
+  background-image: url(../img/abstract-dark-background-designavif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
 .img-bugatti{
   background-size: cover;
   background-position: center;
@@ -130,6 +140,10 @@ p{
 }
 a{
   text-decoration: none;
+  color: rgb(219, 20, 20);
+}
+a:hover{
+  color: grey;
 }
 .fab{
   font-size: 1.5rem;
@@ -153,13 +167,24 @@ a{
   width: 7px;
 }
 .overflow-auto::-webkit-scrollbar-thumb{
-  background: #2f0b91;
+  background: #0c7682;
   border-radius: 5px;
 }
 body::-webkit-scrollbar{
   width: 9px;
 }
 body::-webkit-scrollbar-thumb{
-  background: #2f0b91;
+  background: #0c7682;
   border-radius: 5px;
+}
+
+.card{
+  width: 100%;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.news{
+  background-color:  #600505;
+  color: white;
+  border-radius: 10px;
 }

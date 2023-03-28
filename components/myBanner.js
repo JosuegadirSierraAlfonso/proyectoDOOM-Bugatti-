@@ -1,9 +1,9 @@
 export default{
     image:"img/bugatti-voiture-noire-3.webp",
     titulo: "Bugatti",
-    paragrapth: "Bugatti es una marca francesa de automóviles de gran lujo y competencia fundada en el año 1909 por Ettore Bugatti (1881-1947) en Molsheim.1​ En la actualidad es propiedad de Grupo Volkswagen.",
+    paragrapth: "Bugatti is a French luxury and competition automobile brand founded in 1909 by Ettore Bugatti (1881-1947) in Molsheim.1 It is currently owned by the Volkswagen Group.",
     btn:{
-        name: "Continuar........",
+        name: "Continue........",
         href: "https://es.wikipedia.org/wiki/Bugatti"
     },
     showImage(){
