@@ -128,3 +128,38 @@ h1, h2, h3, h4, h5, h6 {
 p{
   text-align: justify;
 }
+a{
+  text-decoration: none;
+}
+.fab{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.blog-footer{
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overflow-auto::-webkit-scrollbar{
+  height: 7px;
+  width: 7px;
+}
+.overflow-auto::-webkit-scrollbar-thumb{
+  background: #2f0b91;
+  border-radius: 5px;
+}
+body::-webkit-scrollbar{
+  width: 9px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #2f0b91;
+  border-radius: 5px;
+}

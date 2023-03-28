@@ -2,27 +2,27 @@ export default{
     title: "Bugatti",
     company:[
         {
-            name:"Historia",
+            name:"History",
             href:"#"
         },
         {
-            name:"Modelos",
+            name:"Models",
             href:"#"
         },
         {
-            name:"Competición",
+            name:"Competition",
             href:"#"
         },
         {
-            name:"Prototipos",
+            name:"Prototypes",
             href:"#"
         },
         {
-            name:"Resultados",
+            name:"Prices",
             href:"#"
         },
         {
-            name:"Otras realizaciones",
+            name:"Other realizations",
             href:"#"
         },
     ],

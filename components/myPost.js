@@ -4,7 +4,7 @@ export default{
             tittle: "Bugatti Veyron",
             date: "nov 12",
             paragraph:`The basic version of the Veyron 16.4 was produced until 2011 and later the Grand Sport and Super Sport versions were launched between 2009 and 2010.`,
-            image: "img/Bugatti_Veyron_16.4_–_Frontansicht_(1),_5._April_2012,_Düsseldorf.jpg",
+            image: "img/Bugatti Veyron-25.jpg",
             btn:{
                 name: "Continue...",
                 href:"https://es.wikipedia.org/wiki/Bugatti_Veyron"
@@ -15,7 +15,7 @@ export default{
             tittle: "Vision Gran Turismo",
             date: "nov 12",
             paragraph:`The Bugatti Vision Gran Turismo is a concept designed by Bugatti and was unveiled at the 2015 Frankfurt Motor Show. Six models were designed for the event. `,
-            image: "img/Bugatti_Vision_at_IAA_2015_in_Frankfurt.JPG",
+            image: "img/bugatti-vision-gran-turismo-concept-2015-vray-01.jpg",
             btn:{
                 name: "Continue...",
                 href:"https://es.wikipedia.org/wiki/Bugatti_Vision_Gran_Turismo"
@@ -26,7 +26,7 @@ export default{
             tittle: "Bugatti Chiron",
             date: "nov 12",
             paragraph:`The Bugatti Chiron is a two-seater, mid-rear engine, longitudinally mounted, all-wheel drive, two-door coupe super sports car.`,
-            image: "img/Bugatti Chiron.jpg",
+            image: "img/bugatti-chiron-profilexe-1.jpg_638132621.webp",
             btn:{
                 name: "Continue...",
                 href:"https://es.wikipedia.org/wiki/Bugatti_Chiron"

@@ -12,8 +12,8 @@ export default{
     showSectionBanner(){
         document.querySelector("#banner").
         insertAdjacentHTML("beforeend",`
-        <h1 class="display-4 fst-italic text-with">${this.titulo}</h1>
-        <p class="lead my-3 text-white">${this.paragrapth}</p>
+        <h1 class="display-4 fst-italic text-with text-center">${this.titulo}</h1>
+        <p class="lead text-white text-center">${this.paragrapth}</p>
         <p class="lead mb-0"><a href="${this.btn.href}" class="text-white fw-bold">${this.btn.name}</a></p>`)
     }
 
