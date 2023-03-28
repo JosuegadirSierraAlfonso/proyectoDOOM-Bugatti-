@@ -167,14 +167,14 @@ a:hover{
   width: 7px;
 }
 .overflow-auto::-webkit-scrollbar-thumb{
-  background: #0c7682;
+  background: #600505;
   border-radius: 5px;
 }
 body::-webkit-scrollbar{
   width: 9px;
 }
 body::-webkit-scrollbar-thumb{
-  background: #0c7682;
+  background:#600505;
   border-radius: 5px;
 }
 
