@@ -8,12 +8,13 @@ import myThirdArticle from "./components/myThirdArticle.js";
 import myFourthArticle from "./components/myFourthArticle.js";
 import myFooter from "./components/myFooter.js";
 
-myHeader.listarTitle();
-myHeader.listarCompany();
+myHeader.show();
 
 myBanner.showImage();
 myBanner.showSectionBanner();
+
 myPost.showPost();
+
 myAside.showAside();
 
 myFirtsArticle.showFirstArticle();

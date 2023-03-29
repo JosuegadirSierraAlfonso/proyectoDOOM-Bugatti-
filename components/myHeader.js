@@ -1,45 +1,29 @@
+import config from "../storage/config.js";
 export default{
-    title: "Bugatti",
-    company:[
-        {
-            name:"History",
-            href:"#"
-        },
-        {
-            name:"Models",
-            href:"#"
-        },
-        {
-            name:"Competition",
-            href:"#"
-        },
-        {
-            name:"Prototypes",
-            href:"#"
-        },
-        {
-            name:"Prices",
-            href:"#"
-        },
-        {
-            name:"Other realizations",
-            href:"#"
-        },
-    ],
-
-
-    listarTitle(){
-        document.querySelector("#title").insertAdjacentHTML("beforeend", 
-        `<a class="blog-header-logo text-white" href="#">${this.title}</a>`)
-    },
     
-    listarCompany(){
-        let plantilla ="";
-        this.company.forEach((val,id) => {
-            plantilla += `<a class="p-2 link-secondary" href="#">${val.name}</a>`;
-        });
-        document.querySelector("#company").insertAdjacentHTML("beforeend",plantilla);
+    show(){
+        config.dataMyHeader();
+        Object.assign(this, JSON.parse(localStorage.getItem("myHeader")))
+        const ws = new Worker("storage/wsMyHeader.js", {type: "module"});
+        let id = [];
+        let count = 0;
+        id.push("#title");
+        ws.postMessage({module: "listarTitle", data: this.title});
+        id.push("#company");
+        ws.postMessage({module: "listarCompany", data: this.company});
+
+        
+    
+        ws.addEventListener("message", (e)=>{
+            let doc = new DOMParser().parseFromString(e.data, "text/html");
+            document.querySelector(id[count]).append(...doc.body.children);
+            (id.length-1==count) ? ws.terminate(): count++;
+        })
+        
+    
     }
+
+    
 
 
 }
