@@ -18,10 +18,8 @@ myPost.showPost();
 myAside.showAside();
 
 myFirtsArticle.showFirstArticle();
-myFirtsArticle.showSubFirstArticle();
 
 mySecondArticule.showSecondArticule();
-mySecondArticule.showSubSecondArticule();
 
 myThirdArticle.showTableThirdArticule();
 
