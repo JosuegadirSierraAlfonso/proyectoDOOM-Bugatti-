@@ -231,4 +231,176 @@ export default{
         ],
         }))
     },
+    dataThirdArticle(){
+        localStorage.setItem("thirdArticle", JSON.stringify({
+            article: 
+                {
+                    title: "Prices",
+                    subTittle: "December 23, 2020 by ",
+                    titleTable: "Table of prices",
+                    paragraph: "Most relevant prices of the latest bugatti:",
+                    paragraph1: "This price list is of the latest Bugatti cars that have officially gone on sale by the company.",
+                table:[{
+                    thead: [
+                        {
+                            name: "Model",
+                        },
+                        {
+                            name: "Year of production",
+                        },
+                        {
+                            name: "Base price",
+        
+                        }
+                    ],
+                    tbody: [
+                        {
+                            award: "Bugatti Veyron",
+                            age: "2005-2015",
+                            description: "€ 1.350.000",
+                        },
+                        {
+                            award: "Vision Gran Turismo",
+                            age: "2015",
+                            description: "$ 10.000.000",
+                        },
+                        {
+                            award: "Bugatti Chiron",
+                            age: "2016-2022",
+                            description: "€ 2.400.000",
+                        },
+                        {
+                            award: "Bugatti Divo",
+                            age: "2019-presente",
+                            description: "$ 5.400.00",
+                        },
+                        {
+                            award: "Bugatti La Voiture Noire",
+                            age: "2019",
+                            description: "€ 16.100.000",
+                        },
+                    ],
+                }]
+                }
+            
+        }))
+    },
+    dataFourthArticle(){
+        localStorage.setItem("fourthArticle", JSON.stringify({
+            article: {
+                tittle: "Other realizations",
+                subTittle: "December 14, 2020 by ",
+                paragraph: "In addition to its renowned automobiles, Bugatti undertook some striking, although few, achievements in other fields:"
+            },
+            link:
+                {
+                title: "Railways",
+                name: "Bugatti railcar, ",
+                href: "https://es.wikipedia.org/wiki/Automotor_Bugatti",
+                text: "a passenger train designed to take advantage of surplus engines from the commercially unsuccessful Bugatti Royale",
+                img: "img/Autorail_Bugatti_photo_2.JPG",
+        
+                title1: "Aircraft",
+                name1: "Bugatti Model 100,",
+                href1: "https://es.wikipedia.org/wiki/Bugatti_Model_100",
+                text1: "Bugatti Model 100, an airplane designed in 1939 to compete in speed trials",
+                img1: "img/Bugattii100display.jpg",
+            },
+        }))
+    },
+    dataMyFooter(){
+        localStorage.setItem("myFooter", JSON.stringify({
+            logos: {
+                logo: "fab fa-facebook-f",
+                href: "https://www.facebook.com/bugatti/",
+        
+                logo1: "fab fa-twitter",
+                href1: "https://twitter.com/Bugatti",
+        
+                logo2: "fab fa-instagram",
+                href2: "https://www.instagram.com/bugatti/",
+        
+                logo3: "fab fa-pinterest",
+                href3: "https://www.pinterest.de/bugatti/",
+            },
+            ref:
+                {
+                copyRigth: "&copy; 2023 BUGATTI AUTOMOBILES S.A.S",
+                name: "CONTACT",
+                name1: "CAREER",
+                name2: "MEDIA",
+                name3: "LEGAL NOTICE",
+                name4: "CODE OF CONDUCT",
+            },
+        }))
+    },
+    dataMyAside(){
+        localStorage.setItem("myAside", JSON.stringify({
+            nav:[
+                {
+                    title: "News",
+                },
+                {
+                    tittle: "A Bugatti for sale at Costco: This is the firm's new electric scooter",
+                    subTitle: "Industry",
+                    paragraph: "It was created by Bugatti in conjunction with the Bytech company; the frame is made of a magnesium alloy and supports a maximum weight of 109 kg.",
+                    link:[
+                        {
+                            name: "More info",
+                            
+                            href: "https://www.motorpasion.com.mx/industria/bugatti-scooter"
+                        },
+                    ],
+                },
+                {
+                    tittle: "Bugatti Sure Measure, the new customization program debuts with this impressive Chiron Pur Sport",
+                    subTitle: "Industry",
+                    paragraph: "This is the program called Sur Mesure, which offers its customers an interesting and vast catalog of personalization so that each copy is practically unique in the world.",
+                    link:[
+                        {
+                            name: "More info",
+                            
+                            href: "https://www.motorpasion.com.mx/industria/bugatti-sure-mesure-nuevo-programa-personalizacion"
+                        },
+                    ],
+                },
+                {
+                    tittle: "A Bugatti EB112 goes on sale, a super sedan with V12 and that will surely cost more than a ChironA Bugatti for sale at Costco: This is the firm's new electric scooter",
+                    subTitle: "Industry",
+                    paragraph: "A Bugatti EB112 goes on sale, a super sedan with V12 and that will surely cost more than a Chiron",
+                    link:[
+                        {
+                            name: "More info",
+                            
+                            href: "https://www.motorpasion.com.mx/industria/bugatti-eb112-a-venta-sedan"
+                        },
+                    ],
+                },
+                {
+                    tittle: "Remember the Bugatti La Voiture Noire? Comeback in the form of champagne with a carbon fiber bottle",
+                    subTitle: "Industry",
+                    paragraph: "The firm from Molsheim and champagne Carbon, have decided to come together to take that exquisite design of the French house and the bubbly flavor of the golden liquid a little further.",
+                    link:[
+                        {
+                            name: "More info",
+                            
+                            href: "https://www.motorpasion.com.mx/industria/bugatti-champagne-bouteille-noire"
+                        },
+                    ],
+                },
+                {
+                    tittle: "Bugatti Chiron reaches the final stage of its production with the last 40 units",
+                    subTitle: "Industry",
+                    paragraph: "It was in 2016 when the model came to light, a vehicle that captivated the world industry with its more than 1,000 hp.",
+                    link:[
+                        {
+                            name: "More info",
+                            
+                            href: "https://www.motorpasion.com.mx/industria/bugatti-chiron-llega-a-punto-finalizar-produccion"
+                        },
+                    ],
+                },
+            ],
+        }))
+    },
 }

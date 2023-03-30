@@ -9,22 +9,12 @@ import myFourthArticle from "./components/myFourthArticle.js";
 import myFooter from "./components/myFooter.js";
 
 myHeader.show();
-
 myBanner.showImage();
 myBanner.showSectionBanner();
-
 myPost.showPost();
-
 myAside.showAside();
-
 myFirtsArticle.showFirstArticle();
-
 mySecondArticule.showSecondArticule();
-
 myThirdArticle.showTableThirdArticule();
-
 myFourthArticle.showFourthArticle();
-myFourthArticle.showSubFourthArticle();
-
 myFooter.showFooter();
-myFooter.showSubFooter();
